@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.noteapp.AddActivity.AddActivity">
+    <item
+        android:id="@+id/save"
+        android:orderInCategory="100"
+        android:title="Save"
+        android:icon="@android:drawable/ic_menu_save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/write"
+        android:orderInCategory="100"
+        android:title="Write"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/view"
+        android:orderInCategory="100"
+        android:title="View"
+        app:showAsAction="never" />
+</menu>
